@@ -39,12 +39,12 @@ export default function AppHero() {
                                 <img
                                     className="d-block w-100"
                                     src={hero.image}
-                                    alt={"Slide"+hero.id}
+                                    alt={"Slide" + hero.id}
                                 />
                                 <Carousel.Caption>
                                     <h3>{hero.title}</h3>
                                     <p>{hero.description}</p>
-                                    <a className='btn btn-primary' href= {hero.link}>Learn More <i class="fas fa-chevron-right"> </i> </a>
+                                    <a className='btn btn-primary' href={hero.link}>Learn More <i class="fas fa-chevron-right"> </i> </a>
                                 </Carousel.Caption>
                             </Carousel.Item>
                         )
